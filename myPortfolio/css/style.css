@@ -1,9 +1,14 @@
+body {
+    margin: 0;
+}
 nav {
-    height: 5em;
-    background-color: lightblue;
+    background-color: grey;
     width: 100%;
-    position: fixed;
+    position: sticky;
     top: 0px;
+    height: 5em;
+    z-index: 999!important;
+    line-height: 0;
 }
 
 nav div {
@@ -14,31 +19,72 @@ nav a {
     display: inline-block;
     padding: 1em;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: large;
 }
 
-#top {
-    height: 20em;
-    background-color: white;
+h2 {
+    font-size: 38px;
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    margin: 0px 0 25px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.top_cont_outer {
+    position: relative;
+    background: #ED5441;
+    background: url('../img/Header.jpg') no-repeat;
+    background-size: cover;
+}
+
+.hero_wrapper {
+    background: rgba(10, 21, 37, 0.69);
+    height: 650px;
+}
+
+.hero_section {
+    position: relative;
+    padding-top: 10px;
+}
+
+.top_left_cont {
+    padding: 38px 0;
+}
+
+.top_left_cont h2 {
+    font-size: 40px;
+    color: #FFF;
+    line-height: 52px;
+    margin: 0 0 26px 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.top_left_cont h2 strong {
+    font-weight: 700;
+
+    color: grey;
 }
 
 #steckbrief {
-    height: 20em;
-    background-color: lightseagreen;
+    height: 400px;
+    background-color: white;
 }
 
 #faehigkeiten {
-    height: 20em;
-    background-color: white;
+    height: 400px;
+    background-color: lightblue;
 }
 
 #erfahrungen {
-    height: 20em;
-    background-color: lightseagreen;
+    height: 400px;
+    background-color: white;
 }
 
 #kontakt {
-    height: 20em;
-    background-color: white;
+    height: 400px;
+    background-color: lightblue;
 }
