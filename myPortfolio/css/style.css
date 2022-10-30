@@ -88,3 +88,72 @@ h2 {
     height: 400px;
     background-color: lightblue;
 }
+
+
+/*about me*/
+.aboutUs-container {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+    background-position-y: 70px;
+    }
+    #about-us, h2, h3, h6, p {
+    color:#A3ACBA;
+    }
+    #about-us .read-more{
+        border: 1px solid #ED5441;
+        color: #1a1a1a;
+    }
+    
+    #about-us .read-more:hover{
+        background-color: #e74c3c;
+        border: 1px solid #e74c3c;
+        color: #fff;
+    }
+    .about-us-post-container{
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: auto 100%;
+    }
+    .about-us{
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+    .about-us h3{
+        font-size:28px;
+    }
+    .points{ 
+        margin-bottom: 10px;
+        font-size:14px;
+        padding-left:0px;
+    }
+    .about-us p{
+        /*font-size: 0.9375em;*/
+        line-height: 1.625em;
+        padding: 15px 0;
+    }
+    .about-us .about-us-list{
+        list-style: none;
+        margin-bottom: 20px;
+        padding-left:0px;
+    }
+    
+    .about-us .points{
+        position: relative;
+        list-style-type: none;
+        padding: 5px 0 5px 30px;
+    }
+    
+    .about-us .points:before{
+        content: "\f058";
+        position: absolute;
+        font-family: FontAwesome;
+        font-size: 1.125em;
+        color: #11D25D;
+        left: 0px;
+        top: 3px;
+    }
+    
+    .about-us-link a:first-child{
+        margin-left: 0;
+    }
