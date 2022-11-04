@@ -50,7 +50,7 @@ h6 {
 }
 
 .hero_wrapper {
-    background: rgba(10, 21, 37, 0.69);
+    /*background: rgba(10, 21, 37, 0.69);*/
     height: 650px;
 }
 
@@ -60,11 +60,11 @@ h6 {
 }
 
 .top_left_cont {
-    padding: 38px 0;
+    padding: 75px 0;
 }
 
 .top_left_cont h2 {
-    font-size: 40px;
+    font-size: 24px;
     color: #FFF;
     line-height: 52px;
     margin: 0 0 26px 0;
