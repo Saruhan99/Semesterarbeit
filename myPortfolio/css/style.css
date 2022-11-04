@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 nav {
-    background-color: grey;
+    background-color: black;
     width: 100%;
     position: sticky;
     top: 0px;
@@ -78,15 +78,6 @@ h6 {
     color: grey;
 }
 
-#skills {
-    height: 400px;
-    background-color: white;
-}
-
-#kontakt {
-    height: 400px;
-    background-color: lightblue;
-}
 
 
 /*about me*/
@@ -97,7 +88,7 @@ h6 {
     background-position-y: 70px;
     }
     #about-us, h2, h3, h6, p {
-    color:#A3ACBA;
+    color:white;
     }
     #about-us .read-more{
         border: 1px solid #ED5441;
@@ -159,7 +150,7 @@ h6 {
 
     #aboutMe {
         padding: 60px 0;
-        background: #0A1525;
+        background: #605a5a;
     }
     
 
@@ -235,6 +226,7 @@ h6 {
 
     #skills{
         padding:80px 0 60px;
+        background-color: grey;
         }
          .progress {
           height: 20px;
@@ -261,5 +253,212 @@ h6 {
             font-weight: 400;
             padding: 3px 10px 2px;
         }
+
+
+        /* Contact
+---------------------------------*/
+.page_section.contact {
+    padding: 90px 0 100px;
+    background-color: grey;
+}
+ 
+.contact_section {
+    margin: 0 0 60px 0;
+}
+
+.contact_section h2 {
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0 0 50px 0;
+    text-transform: uppercase;
+}
+
+.contact_block {
+    text-align: center;
+}
+
+.contact_block_icon {
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    margin: 0px auto 20px;
+}
+
+.contact_block_icon.icon2 {
+    border-color: #ED5441;
+}
+
+.contact_block_icon.icon3 {
+    border-color: #49b5e7;
+}
+
+.contact_block_icon span {
+    background: none repeat scroll 0 0 #f56eab;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.contact_block_icon.icon2 {
+    border-color: #ED5441;
+}
+
+.contact_block_icon.icon2 span {
+    background: #ED5441;
+}
+
+.contact_block_icon.icon3 {
+    border-color: #49b5e7;
+}
+
+.contact_block_icon.icon3 span {
+    background: #49b5e7;
+}
+
+.contact_block_icon i {
+    color: #fff;
+    font-size: 36px;
+    margin-top: 0;
+    position: relative;
+    top: 26px;
+    z-index: 20;
+}
+
+.contact_block span {
+    display: block;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 20px;
+}
+
+.contact_block span a {
+    display: block;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 20px;
+}
+
+.contact_info {
+    font-size: 15px;
+    margin: 0 0 0 20px;
+    padding-left: 0;
+}
+
+.contact_info  h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 30px;
+    color: #fff;
+}
+
+.contact_info p {
+    line-height: 28px;
+    display: block;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0 0 30px;
+}
+
+.social_links {
+    padding:0;
+    margin: 0;
+    display: block;
+    overflow: hidden;
+    list-style: none;
+}
+
+.social_links li {
+    float: left;
+    margin-right: 4px;
+}
+
+.social_links li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.social_links li a:hover, .social_links li a:focus {
+    text-decoration: none;
+    border-radius: 80px;
+}
+
+.twitter a:hover {
+    color: #55acee;
+}
+
+.facebook a:hover {
+    color: #3b5998;
+}
+
+.pinterest a:hover {
+    color: #cb2026;
+}
+
+.gplus a:hover {
+    color: #dd4b39;
+}
+ 
+
+.form {
+    margin: 0 66px 0 30px;
+}
+
+.input-text {
+    padding: 15px 16px;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 50px;
+    display: block;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #aaa;
+    margin: 0 0 15px 0;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.input-text:focus {
+    border: 1px solid #fff;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);
+}
+
+.input-text.text-area {
+    height: 230px;
+    resize: none;
+    overflow: auto;
+    
+}
+
+.input-btn {    
+    width: 175px;
+    height: 50px;
+    letter-spacing: 0px;
+    background: #F74D4D;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 0px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.input-btn:hover {
+    background: #fff;
+    color: #222;
+}
 
        
