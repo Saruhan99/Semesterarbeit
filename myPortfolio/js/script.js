@@ -5,3 +5,18 @@ var typed = new Typed(".mov",{
     loop: true
 
 })
+
+$(document).ready(function () {
+
+    $('.first-button').on('click', function () {
+
+        $('.animated-icon1').toggleClass('open');
+    });
+
+});
+
+$(document).ready(function(){
+    $('#nav-icon1').click(function(){
+        $(this).toggleClass('open');
+    });
+});
