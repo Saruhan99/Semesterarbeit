@@ -254,7 +254,7 @@ h6 {
     }
     
 
-    /*meine Fähigkeiten*/
+    /*meine F&ouml;uuml;auml;higkeiten*/
     #faehigkeiten {
         padding: 60px 0px;
         background: grey;
@@ -845,3 +845,7 @@ h6 {
     color: #222;
 }
 
+.img-responsive{
+    width: 100%;
+    object-fit: fill;
+}
