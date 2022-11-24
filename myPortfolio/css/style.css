@@ -849,3 +849,22 @@ h6 {
     width: 100%;
     object-fit: fill;
 }
+
+.progress-bar-französisch {
+    background-color: blue;
+}
+
+.progress-bar-deutsch {
+    background-color: #03f8fc;
+    color: black;
+}
+
+.progress-bar-englisch {
+    background-color: orange;
+    color: black;
+}
+
+.progress-bar-Tamilisch {
+    background-color: green;
+    color: black;
+}
