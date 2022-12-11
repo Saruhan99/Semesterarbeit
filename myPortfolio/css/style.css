@@ -868,3 +868,8 @@ h6 {
     background-color: green;
     color: black;
 }
+
+.breadcrumb>li+li:before {
+    padding: 0;
+    content: "";
+}
