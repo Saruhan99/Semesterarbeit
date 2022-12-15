@@ -888,6 +888,12 @@ h2, h3, h6, p {
     box-shadow:4px 4px 0 #bbb,8px 8px 0 #ddd;
 }
 
+@media screen and (max-width: 767px) {
+  .news-item .news-content:before {
+    background-color: white;
+  }
+}
+
 /* Kontakt --------------------------------------------------------------------------*/
 .page_section.contact {
     padding: 90px 0 100px;
