@@ -1,6 +1,7 @@
 body {
     margin: 0;
     overflow-x: hidden;
+    overflow-wrap: break-word;
 }
 
 h2 {
@@ -11,6 +12,10 @@ h2 {
     margin: 0px 0 25px 0;
     text-align: center;
     text-transform: uppercase;
+}
+
+h4 {
+    font-weight: bolder;
 }
 
 h6 {
@@ -388,55 +393,241 @@ h2, h3, h6, p {
     margin: 0 0 35px 0; 
 }
 
+.service_icon span:hover {
+    border-color: #F74D4D;
+}
+
+.service_icon span:hover i {
+    color: #F74D4D;
+}
+
 /* Skills --------------------------------------------------------------------------*/
 #skills{
     padding:80px 0 60px;
     background-color: #b4b4b4;
 }
-.progress {
-    height: 20px;
-    margin-bottom: 20px;
-    overflow: hidden;
-    background-color: #f5f5f5;
-    border-radius: 0;
-}
-.progress {
+
+.development_title {
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .skills-bar-container {
     position: relative;
-    height: 25px;
-}
-.progress > .progress-type {
+    margin: 0 auto;
+    width: 40%;
+    min-width: 350px;
+    top: 40%;
+    transform: translate(-50%, -50%) s;
+    list-style: none;
+    margin-bottom: 25px;
+  }
+  .skills-bar-container li {
+    position: relative;
+    width: 100%;
+    padding: 2px 2px;
+  }
+  
+  .progressbar-title {
+    color: #F74D4D;
+  }
+  .progressbar-title h3 {
+    display: inline-block;
+    position: relative;
+    top: 17px;
+    margin-bottom: 1em;
+    color: white;
+  }
+  .progressbar-title .percent {
     position: absolute;
-    left: 0px;
-    font-weight: 400;
-    padding: 3px 30px 2px 10px;
-    color: rgba(255, 255, 255, 0.54);
-    background-color: rgba(25, 25, 25, 0.2);
-}
-.progress > .progress-completed {
+    right: 2px;
+    top: 40px;
+  }
+  
+  .bar-container {
+    background: #555;
+    position: relative;
+    width: 100%;
+    height: 10px;
+    display: block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: -15px;
+  }
+  .bar-container .progressbar {
     position: absolute;
-    right: 0px;
-    font-weight: 400;
-    padding: 3px 10px 2px;
-}
-
-.progress-bar-französisch {
-    background-color: blue;
-    font-size: medium;
-}
-
-.progress-bar-deutsch {
-    font-size: medium;
-}
-
-.progress-bar-englisch {
-    background-color: orange;
-    font-size: medium;
-}
-
-.progress-bar-Tamilisch {
-    background-color: green;
-    font-size: medium;  
-}
+    width: 0%;
+    height: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+  }
+  
+  .progresstomatoes {
+    background: #F74D4D;
+  }
+  
+  #progress-deutsch {
+    animation-name: progress-deutsch;
+    animation-delay: 0.7s;
+  }
+  
+  #progress-franz {
+    animation-name: progress-franz;
+    animation-delay: 1.4s;
+  }
+  
+  #progress-englisch {
+    animation-name: progress-englisch;
+    animation-delay: 2.1s;
+  }
+  
+  #progress-tamilisch {
+    animation-name: progress-tamilisch;
+    animation-delay: 2.8s;
+  }
+  
+  @-webkit-keyframes progress-deutsch {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  @-moz-keyframes progress-deutsch {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  @-ms-keyframes progress-deutsch {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  @keyframes progress-deutsch {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  @-webkit-keyframes progress-franz {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+  @-moz-keyframes progress-franz {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+  @-ms-keyframes progress-franz {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+  @keyframes progress-franz {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+  @-webkit-keyframes progress-englisch {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 90%;
+    }
+  }
+  @-moz-keyframes progress-englisch {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 90%;
+    }
+  }
+  @-ms-keyframes progress-englisch {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 90%;
+    }
+  }
+  @keyframes progress-englisch {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 90%;
+    }
+  }
+  @-webkit-keyframes progress-tamilisch {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  @-moz-keyframes progress-tamilisch {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  @-ms-keyframes progress-tamilisch {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  @keyframes progress-tamilisch {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
 
 /* Erfahrungen --------------------------------------------------------------------------*/
 .timeline{

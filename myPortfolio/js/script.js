@@ -114,3 +114,24 @@ for (var i = 0; i < shapeEls.length; i++) {
 }
 
 })();
+
+//Progress Bar
+var lang = {
+    "deutsch": "100%",
+    "franz": "80%",
+    "englisch": "90%",
+    "tamilisch": "100%",
+};
+var multiply = 4;
+
+$.each( lang, function( language, pourcent) {
+
+        var delay = 700;
+
+        setTimeout(function() {
+            $('#'+language+'-pourcent').html(pourcent);
+        },delay*multiply);
+
+        multiply++;
+
+    });
