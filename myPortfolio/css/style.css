@@ -327,7 +327,7 @@ h2, h3, h6, p {
 /* Stärken --------------------------------------------------------------------------*/
 #faehigkeiten {
     padding: 60px 0px;
-    background: grey;
+    background: #b4b4b4;
 }
 #faehigkeiten h2{
     color: #fff;
@@ -391,7 +391,7 @@ h2, h3, h6, p {
 /* Skills --------------------------------------------------------------------------*/
 #skills{
     padding:80px 0 60px;
-    background-color: grey;
+    background-color: #b4b4b4;
 }
 .progress {
     height: 20px;
@@ -695,7 +695,7 @@ h2, h3, h6, p {
 /* Kontakt --------------------------------------------------------------------------*/
 .page_section.contact {
     padding: 90px 0 100px;
-    background-color: grey;
+    background-color: #b4b4b4;
 }
  
 .contact_section {
