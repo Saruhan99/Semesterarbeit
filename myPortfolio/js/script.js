@@ -1,3 +1,4 @@
+//Typed Text in Header
 var typed = new Typed(".mov",{
     strings: ["Student Wirtschaftsinformatik", "Softwaretester"] ,
     typeSpeed: 100,
@@ -8,6 +9,7 @@ var typed = new Typed(".mov",{
 
 $(document).ready(function () {
 
+    //Hamburger Navigation
     $('.first-button').on('click', function () {
 
         $('.animated-icon1').toggleClass('open');
@@ -17,8 +19,17 @@ $(document).ready(function () {
         $(this).toggleClass('open');
     });
 
+    $('#btn-send').click(function(){
+        $("#input-name").val("Name und Vorname");
+        $("#input-email").val("E-Mail");
+        $("#input-text").val("Mitteilung");
+        $("#success-message-box").fadeIn(700);
+        $("#success-message-box").delay(5000).fadeOut(700);
+    });
+
 });
 
+//Animation Shapes in Header
 function fitElementToParent(el, padding) {
 var timeout = null;
 function resize() {
