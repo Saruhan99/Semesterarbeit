@@ -245,6 +245,10 @@ h6 {
         margin-left: 0;
     }
 
+    .about-us-list li {
+        font-size: large;
+    }
+
     #aboutMe {
         padding: 60px 0;
         background: #605a5a;
@@ -941,4 +945,12 @@ h6 {
     margin-top: -16px;
     stroke: currentColor;
     fill: currentColor;
+  }
+
+  .color-red {
+    color: red;
+  }
+
+  .color-white {
+    color: white;
   }
