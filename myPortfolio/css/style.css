@@ -161,7 +161,7 @@ h6 {
 }
 
 .top_left_cont {
-    padding: 175px 0;
+    padding: 35px 0;
 }
 
 .top_left_cont h1 {
@@ -169,14 +169,12 @@ h6 {
     line-height: 52px;
     margin: 0 0 26px 0;
     font-family: 'Raleway', sans-serif;
-    text-align: center;
-    font-size: xxx-large;
+    text-align: center;   
 }
 
 .top_left_cont h1 strong {
     font-weight: 500;
     color: grey;
-    font-size: xxx-large;
 }
 
 /*about me*/
@@ -890,3 +888,57 @@ h6 {
     margin-right: auto; 
     display: block;
 }
+
+
+.animation-wrapper {
+    width: 80%;
+    padding-bottom: 40%;
+  }
+  
+  /** Layered Animation **/
+  
+  .layered-animations {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+    height: 450px;
+    margin: -75px 0 0 -550px;
+  }
+  
+  .layered-animations .shape {
+    position: absolute;
+    top: 50%;
+    overflow: visible;
+    width: 280px;
+    height: 180px;
+    margin-top: -140px;
+    stroke: transparent;
+    stroke-width: 1px;
+    fill: url(#shapesGradient);
+  }
+  
+  @media (min-width: 740px) {
+    .layered-animations .shape {
+      stroke-width: .5px;
+    }
+  }
+  
+  .layered-animations .small.shape {
+    width: 64px;
+    height: 64px;
+    margin-top: -32px;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  
+  .layered-animations .x-small.shape {
+    width: 32px;
+    height: 32px;
+    margin-top: -16px;
+    stroke: currentColor;
+    fill: currentColor;
+  }
