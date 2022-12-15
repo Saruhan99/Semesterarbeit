@@ -333,10 +333,10 @@ h2, h3, h6, p {
 /* Stärken --------------------------------------------------------------------------*/
 #faehigkeiten {
     padding: 60px 0px;
-    background: #b4b4b4;
+    background: white;
 }
 #faehigkeiten h2{
-    color: #fff;
+    color: #b4b4b4;
 
 }
 .service_wrapper {
@@ -362,13 +362,13 @@ h2, h3, h6, p {
     height: 95px;
     width: 95px;
     
-    border: 1px solid #FFFFFF;
+    border: 1px solid #b4b4b4;
     border-radius: 50%;
     padding: 6px 0 0;
 }
 
 .service_icon i {
-    color: #FFFFFF;
+    color: #b4b4b4;
     font-size: 40px;
     margin-top: 0;
     position: relative;
@@ -382,15 +382,15 @@ h2, h3, h6, p {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 25px;
-    color: #fff;
+    color: #b4b4b4;
     margin: 35px 0 15px; 
 }
 #service h6{
-    color:#fff;
+    color:#b4b4b4;
 }
 .service_block p {
     font-size: 16px;
-    color: #fff;
+    color: #b4b4b4;
     margin: 0 0 35px 0; 
 }
 
@@ -405,7 +405,11 @@ h2, h3, h6, p {
 /* Skills --------------------------------------------------------------------------*/
 #skills{
     padding:80px 0 60px;
-    background-color: #b4b4b4;
+    background-color: white;
+}
+
+#skills h2 {
+  color: #b4b4b4;
 }
 
 .development_title {
@@ -444,7 +448,7 @@ h2, h3, h6, p {
     position: relative;
     top: 17px;
     margin-bottom: 1em;
-    color: white;
+    color: #b4b4b4;
   }
   .progressbar-title .percent {
     position: absolute;
