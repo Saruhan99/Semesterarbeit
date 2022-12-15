@@ -498,7 +498,7 @@ h2, h3, h6, p {
     padding-left:100px;
     background:#b4b4b4;
     border-radius:10px;
-    box-shadow:-5px 5px 0 rgba(0,0,0,0.08);
+    box-shadow:-5px 5px 0 rgba(0,0,0,0.4);
     -webkit-transition:all .3s ease-out;
     transition:all .3s ease-out;
 }
@@ -510,7 +510,7 @@ h2, h3, h6, p {
 
 .news-item.right .news-content {
     margin:20px 0 0 30px;
-    box-shadow:5px 5px 0 rgba(0,0,0,0.08);
+    box-shadow:5px 5px 0 rgba(0,0,0,0.4);
 }
 
 .news-item .news-content:after {
@@ -523,7 +523,7 @@ h2, h3, h6, p {
     height:0px;
     background:transparent;
     border:20px solid transparent;
-    border-left:20px solid #f5f5f5;
+    border-left:20px solid #b4b4b4;
     -webkit-transition:border-left-color .3s ease-out;
     transition:border-left-color .3s ease-out;
 }
@@ -533,7 +533,7 @@ h2, h3, h6, p {
     left:-40px;
     right:auto;
     border-left:20px solid transparent;
-    border-right:20px solid #f5f5f5;
+    border-right:20px solid #b4b4b4;
     -webkit-transition:border-right-color .3s ease-out;
     transition:border-right-color .3s ease-out;
 }
