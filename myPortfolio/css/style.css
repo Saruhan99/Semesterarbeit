@@ -186,7 +186,8 @@ header a, header a:visited, header a:active, header a:hover {
     line-height: 52px;
     margin: 0 0 26px 0;
     font-family: 'Raleway', sans-serif;
-    text-align: center;   
+    text-align: center;
+    color: white;
 }
 
 .top_left_cont h1 strong {
