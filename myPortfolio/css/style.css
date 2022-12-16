@@ -33,7 +33,7 @@ h6 {
 
 /* Header --------------------------------------------------------------------------*/
 header {
-    background-color: black;
+    background-color: #191c1b;
     width: 100%;
     position: sticky;
     top: 0px;
@@ -59,11 +59,11 @@ header a, header a:visited, header a:active, header a:hover {
 }
 
 .container-fluid {
-    background-color: black;
+    background-color: #191c1b;
 }
 
 .breadcrumb {
-    background-color: black;
+    background-color: #191c1b;
 }
 
 .navbar-toggle .icon-bar {
@@ -307,7 +307,7 @@ h2, h3, h6, p {
     position: absolute;
     font-family: FontAwesome;
     font-size: 1.125em;
-    color: #11D25D;
+    color: #F74D4D;
     left: 0px;
     top: 3px;
 }
@@ -322,7 +322,7 @@ h2, h3, h6, p {
 
 #aboutMe {
     padding: 60px 0;
-    background: #605a5a;
+    background: #b4b4b4;
 }
 
 .img-responsive{
