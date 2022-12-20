@@ -30,6 +30,7 @@ $(document).ready(function () {
 });
 
 //Animation Shapes in Header
+//Quelle: https://www.sliderrevolution.com/design/cool-javascript-animations/
 function fitElementToParent(el, padding) {
 var timeout = null;
 function resize() {
@@ -116,6 +117,7 @@ for (var i = 0; i < shapeEls.length; i++) {
 })();
 
 //Progress Bar
+//Quelle: https://www.sliderrevolution.com/design/cool-javascript-animations/
 var lang = {
     "deutsch": "100%",
     "franz": "80%",
